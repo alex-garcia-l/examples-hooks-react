@@ -11,8 +11,8 @@ export const MultipleCustomHooks = () => {
 
   return (
     <>
-      <h1 className="mt-5">Breaking Bad</h1>
-
+      <h1 className="mt-5">Breaking Bad <span className="fs-3">(Query API)</span></h1>
+      <hr />
       {
         loading
           ?

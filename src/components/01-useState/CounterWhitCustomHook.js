@@ -3,11 +3,11 @@ import { useCounter } from '../../hooks/useCounter';
 
 export const CounterWhitCustomHook = () => {
 
-  const { state: counter, increment, decrement, reset } = useCounter(100);
+  const { counter, increment, decrement, reset } = useCounter(100);
 
   return (
     <>
-      <h1 className="mt-5">Counter with hook: {counter}</h1>
+      <h1>Counter with hook: {counter}</h1>
       <hr />
       <button
         className="btn btn-danger"
