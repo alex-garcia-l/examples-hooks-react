@@ -1,5 +1,6 @@
 import React, { useRef } from 'react';
 import Swal from 'sweetalert2';
+import PropTypes from 'prop-types';
 
 import { useForm } from '../../hooks/useForm';
 
@@ -80,3 +81,7 @@ export const TodoForm = ({ handleAdd }) => {
     </>
   );
 };
+
+TodoForm.propTypes = {
+  handleAdd: PropTypes.func.isRequired
+}

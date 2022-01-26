@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { Trash2, Check, X } from 'react-feather';
 
 export const TodoListItem = ({ todo, index, handleToggle, handleDelete }) => {
@@ -23,3 +24,10 @@ export const TodoListItem = ({ todo, index, handleToggle, handleDelete }) => {
     </tr>
   );
 };
+
+TodoListItem.propTypes = {
+  todo: PropTypes.object.isRequired,
+  index: PropTypes.number.isRequired,
+  handleToggle: PropTypes.func.isRequired,
+  handleDelete: PropTypes.func.isRequired
+}

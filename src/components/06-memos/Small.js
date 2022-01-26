@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 export const Small = React.memo(({ value }) => {
 
@@ -10,3 +11,7 @@ export const Small = React.memo(({ value }) => {
     </>
   );
 });
+
+Small.propTypes = {
+  value: PropTypes.number.isRequired
+}

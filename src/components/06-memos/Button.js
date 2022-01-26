@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 export const Button = React.memo(({ increment }) => {
 
@@ -13,3 +14,7 @@ export const Button = React.memo(({ increment }) => {
     </button>
   );
 });
+
+Button.propTypes = {
+  increment: PropTypes.func.isRequired
+}
