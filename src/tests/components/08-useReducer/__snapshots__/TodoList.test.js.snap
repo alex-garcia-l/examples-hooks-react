@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Prueba para el componente TodoList debe de mostrarse correctamente 1`] = `
+<Fragment>
+  <h3>
+    Todo List (
+    2
+     totals)
+  </h3>
+  <table
+    className="table"
+  >
+    <thead>
+      <tr>
+        <th>
+          #
+        </th>
+        <th>
+          Description
+        </th>
+        <th>
+          Actions
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <TodoListItem
+        handleDelete={[MockFunction]}
+        handleToggle={[MockFunction]}
+        index={0}
+        key="1"
+        todo={
+          Object {
+            "desciption": "Learn React",
+            "done": false,
+            "id": 1,
+          }
+        }
+      />
+      <TodoListItem
+        handleDelete={[MockFunction]}
+        handleToggle={[MockFunction]}
+        index={1}
+        key="2"
+        todo={
+          Object {
+            "desciption": "Learn Node js",
+            "done": false,
+            "id": 2,
+          }
+        }
+      />
+    </tbody>
+  </table>
+</Fragment>
+`;

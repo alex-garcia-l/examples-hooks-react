@@ -24,8 +24,8 @@ export const LoginScreen = () => {
 
     setUser({
       id: 1234,
-      name: 'Alex',
-      user: '@alex'
+      name: 'Name',
+      user: '@username'
     });
 
     Toast.fire({

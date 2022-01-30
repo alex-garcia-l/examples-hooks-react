@@ -29,11 +29,11 @@ export const App = () => {
           <div className="container mb-5">
             <header className="d-flex justify-content-center py-3">
               <ul className="nav nav-pills">
-                <li className="nav-item"><NavLink className="nav-link" activeClassName="active" to="/">Todo App</NavLink></li>
-                <li className="nav-item"><NavLink className="nav-link" activeClassName="active" to="/counter">Counter</NavLink></li>
-                <li className="nav-item"><NavLink className="nav-link" activeClassName="active" to="/breaking-bad">Breaking Bad</NavLink></li>
-                <li className="nav-item"><NavLink className="nav-link" activeClassName="active" to="/counter-pro">Counter Pro</NavLink></li>
-                <li className="nav-item"><NavLink className="nav-link" activeClassName="active" to="/context-app">Contex App</NavLink></li>
+                <li className="nav-item"><NavLink className="nav-link" to="/">Todo App</NavLink></li>
+                <li className="nav-item"><NavLink className="nav-link" to="/counter">Counter</NavLink></li>
+                <li className="nav-item"><NavLink className="nav-link" to="/breaking-bad">Breaking Bad</NavLink></li>
+                <li className="nav-item"><NavLink className="nav-link" to="/counter-pro">Counter Pro</NavLink></li>
+                <li className="nav-item"><NavLink className="nav-link" to="/context-app">Contex App</NavLink></li>
               </ul>
             </header>
           </div>

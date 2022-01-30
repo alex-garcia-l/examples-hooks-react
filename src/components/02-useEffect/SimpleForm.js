@@ -53,7 +53,7 @@ export const SimpleForm = () => {
         />
       </div>
 
-      {name === 'alex' && <Message />}
+      {name === 'developer' && <Message />}
     </>
   );
 };

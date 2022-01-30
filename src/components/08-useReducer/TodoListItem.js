@@ -4,7 +4,7 @@ import { Trash2, Check, X } from 'react-feather';
 
 export const TodoListItem = ({ todo, index, handleToggle, handleDelete }) => {
   return (
-    <tr className={`${todo.done && 'text-dark bg-light text-decoration-line-through fst-italic'}`}>
+    <tr className={`${todo.done ? 'text-dark bg-light text-decoration-line-through fst-italic' : ''}`}>
       <th>{index + 1}</th>
       <th>{todo.desciption}</th>
       <th>

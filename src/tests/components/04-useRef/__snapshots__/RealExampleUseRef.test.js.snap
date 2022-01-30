@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Prueba para el componente <RealExampleUseRef /> debe mostrarse correctamente 1`] = `
+<Fragment>
+  <div
+    className="clearfix"
+  >
+    <h1
+      className="float-start"
+    >
+      RealExampleUseRef
+    </h1>
+    <button
+      className="btn btn-outline-primary mt-3 float-end"
+      onClick={[Function]}
+    >
+      Visualizar/Ocultar
+    </button>
+  </div>
+  <hr />
+  <MultipleCustomHooks />
+</Fragment>
+`;
+
+exports[`Prueba para el componente <RealExampleUseRef /> debe ocultar el componente MultipleCustomHooks al precionar el botón Visualizar/Ocultar 1`] = `
+<Fragment>
+  <div
+    className="clearfix"
+  >
+    <h1
+      className="float-start"
+    >
+      RealExampleUseRef
+    </h1>
+    <button
+      className="btn btn-outline-primary mt-3 float-end"
+      onClick={[Function]}
+    >
+      Visualizar/Ocultar
+    </button>
+  </div>
+  <hr />
+</Fragment>
+`;

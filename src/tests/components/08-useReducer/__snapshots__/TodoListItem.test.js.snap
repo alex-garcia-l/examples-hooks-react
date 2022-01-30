@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas para el componente <TodoListItem /> debe mostrarse correctamente 1`] = `
+<tr
+  className=""
+>
+  <th>
+    1
+  </th>
+  <th>
+    Learn React
+  </th>
+  <th>
+    <button
+      className="btn btn-success btn-sm me-2"
+      onClick={[Function]}
+    >
+      <Check
+        size={16}
+      />
+    </button>
+    <button
+      className="btn btn-danger btn-sm"
+      onClick={[Function]}
+    >
+      <Trash2
+        size={16}
+      />
+    </button>
+  </th>
+</tr>
+`;

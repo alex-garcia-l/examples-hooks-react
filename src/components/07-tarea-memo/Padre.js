@@ -15,7 +15,7 @@ export const Padre = () => {
     <div>
       <h1>Counter Pro</h1>
       <hr />
-      <h2 className="mb-5">Total: <span class="badge bg-secondary">{valor}</span></h2>
+      <h2 className="mb-5">Total: <span className="badge bg-secondary">{valor}</span></h2>
 
       {
         numeros.map(n => (
